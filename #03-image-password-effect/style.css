@@ -1,0 +1,48 @@
+body {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.background {
+  background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60s");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  left: -20px;
+  bottom: -20px;
+  filter: blur(20px);
+  z-index: -1;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 4px;
+}
+.input-group {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+input {
+  border-width: 1px;
+  display: block;
+  width: 100%;
+  padding: 2px;
+  margin-top: 2px;
+  border-radius: 0.25rem;
+}
+input:focus {
+  outline: none;
+}
