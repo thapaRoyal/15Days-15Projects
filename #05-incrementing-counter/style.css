@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  color: #fff;
+  background-color: #8e44ad;
+}
+.counter {
+  font-size: 60px;
+}
